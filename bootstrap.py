@@ -15,7 +15,6 @@ parser = argparse.ArgumentParser(
 parser.add_argument(
     "name",
     type=str,
-    required=True,
     help="Name of the project. Initializes directory and project name to parameter. Aborts if directory/project already exists.")
 args = parser.parse_args()
 
